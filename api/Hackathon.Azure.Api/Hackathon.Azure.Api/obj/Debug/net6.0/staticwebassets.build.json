@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x/CSajiY1mwnR4lcw+4dDUKgplVt5EIjVRfRSOzQGr8=",
+  "Source": "Hackathon.Azure.Api",
+  "BasePath": "_content/Hackathon.Azure.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
