@@ -4,7 +4,7 @@ $LocationName = "westus"
 $ResourceGroupName = "2022-hack-team-1-WES"
 $ComputerName = "Hack-Team-1"
 $VMName = "Hack-Team1-SVR"
-$VMSize = "Standard_DCv2"
+$VMSize = "Standard_A1_v2"
 
 $NetworkName = "Hack-Team-1-Virtual-Network"
 $NICName = "Hack-Team-1-NIC"
@@ -23,4 +23,4 @@ $VirtualMachine = Set-AzVMOperatingSystem -VM $VirtualMachine -Windows -Computer
 $VirtualMachine = Add-AzVMNetworkInterface -VM $VirtualMachine -Id $NIC.Id
 $VirtualMachine = Set-AzVMSourceImage -VM $VirtualMachine -PublisherName 'MicrosoftWindowsServer' -Offer 'WindowsServer' -Skus '2012-R2-Datacenter' -Version latest
 
-New-AzVM -ResourceGroupName $ResourceGroupName -Location $LocationName -VM $VirtualMachine -Verbose
+New-AzVM -ResourceGroupName $ResourceGroupName -Location $LocationName -VM $VirtualMachine -Verbose 
