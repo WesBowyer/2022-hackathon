@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.ResourceManager.Resources": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.Management.Fluent": {
+              "target": "Package",
+              "version": "[1.38.1, )"
+            },
+            "Microsoft.Azure.Management.ResourceManager.Fluent": {
+              "target": "Package",
+              "version": "[1.38.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

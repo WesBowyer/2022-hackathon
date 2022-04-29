@@ -1,5 +1,6 @@
 using Hackathon.Azure.Business.Requests;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Management.Compute.Fluent;
 
 namespace Hackathon.Azure.Api.Controllers
 {
@@ -9,9 +10,14 @@ namespace Hackathon.Azure.Api.Controllers
     {
 
         [HttpPost]
-        public Task<IActionResult> ProvisionEnvironment([FromBody]AzureEnvironmentProvisionRequest azureEnvironmentProvisionRequest)
+        public async Task<IActionResult> ProvisionEnvironment([FromBody]AzureEnvironmentProvisionRequest azureEnvironmentProvisionRequest)
         {
-            throw new NotImplementedException();
+            var token = Azure.Business.AuthorisationHandler.GetAuthorizationHeader();
+
+            var credential = new Microsoft.Rest.TokenCredentials(token);
+
+
+            return Ok();
         }
 
     }

@@ -2,7 +2,6 @@ C:\git\2022-hackathon\api\Hackathon.Azure.Business\bin\Debug\net6.0\Hackathon.Az
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\bin\Debug\net6.0\Hackathon.Azure.Business.dll
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\bin\Debug\net6.0\ref\Hackathon.Azure.Business.dll
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\bin\Debug\net6.0\Hackathon.Azure.Business.pdb
-C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.csproj.AssemblyReference.cache
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.AssemblyInfoInputs.cache
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Az
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.dll
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\ref\Hackathon.Azure.Business.dll
 C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.pdb
+C:\git\2022-hackathon\api\Hackathon.Azure.Business\obj\Debug\net6.0\Hackathon.Azure.Business.csproj.AssemblyReference.cache
