@@ -16,18 +16,19 @@ namespace Hackathon.Azure.Api.Commands
         }
         public async Task<string> Execute(string resourceGroupName, string location)
         {
-            var token = await _tokenHandler.GetToken().ConfigureAwait(false);
-            var credential = new Microsoft.Rest.TokenCredentials(token);
+            return null;
+            //var token = await _tokenHandler.GetToken().ConfigureAwait(false);
+            //var credential = new Microsoft.Rest.TokenCredentials(token);
 
-            var x = new ResourceManager();
-            //var httpClientHandler = new HttpClientHandler();
+            //var x = new ResourceManager();
+            ////var httpClientHandler = new HttpClientHandler();
 
-            //var handlers = new List<DelegatingHandler>();
+            ////var handlers = new List<DelegatingHandler>();
 
-            //var httpClient = new RestClient(httpClientHandler, handlers);
+            ////var httpClient = new RestClient(httpClientHandler, handlers);
 
-            //var x = new ResourceManagementClient(httpClient);
-            //x.ResourceGroups.CreateOrUpdateAsync("")
+            ////var x = new ResourceManagementClient(httpClient);
+            ////x.ResourceGroups.CreateOrUpdateAsync("")
         }
     }
 }

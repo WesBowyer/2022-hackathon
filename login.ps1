@@ -1,1 +1,1 @@
-Connect Az-Account
+Connect-AzAccount

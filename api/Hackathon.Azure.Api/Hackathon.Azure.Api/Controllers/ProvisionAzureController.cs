@@ -14,7 +14,7 @@ namespace Hackathon.Azure.Api.Controllers
         {
             var token = Azure.Business.AuthorisationHandler.GetAuthorizationHeader();
 
-            var credential = new Microsoft.Rest.TokenCredentials(token);
+            //var credential = new Microsoft.Rest.TokenCredentials(token);
 
 
             return Ok();
